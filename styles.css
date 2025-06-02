@@ -1,0 +1,123 @@
+/*
+Bron: chatGPT
+prompt: hoe zorg ik ervoor dat mijn afbeelding op de achtergrond komt te staan en geen invloed heeft op de rest?
+*/
+
+body {
+    background-image: url('images/achtergrond.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    background-color: rgb(117, 146, 218);
+}
+
+/*
+Bron: chatGPT
+prompt: hoe zorg ik ervoor in html en css dat mijn 3 sections die ik heb gemaakt naast elkaar komen te staan en geen invloed hebben op elkaar?
+*/
+
+section {
+    flex: 1;
+    flex-direction: row;
+}
+
+.opties button {
+    border-radius: 80%;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(96, 56, 19);
+    color: white;
+}
+
+button:hover{
+    scale: 1.04;
+  }
+
+button img {
+    width: 95%;
+    height: 80%;
+}
+
+.opties div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+.rijeen {
+    padding-left: 6.7em;
+    padding-right: 1.5em;
+    padding-top: 4.5em;
+}
+
+.rijtwee {
+    padding-left: 6.5em;
+    padding-right: 1.5em;
+    padding-top: 5em;
+}
+
+.rijdrie { 
+    padding-left: 6.5em;
+    padding-right: 1.5em;
+    padding-top: 5.5em;
+}
+
+.rijvier {
+    padding-left: 23.2em;
+    padding-top: 3.8em;
+}
+
+.bar img {
+    width: 60%;
+    height: 60%;
+    padding-left: 13em;
+    padding-top: 13.5em;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    padding-left: 7.1em;
+    padding-top: 5.3em;
+}
+
+.roodBudget {
+    color: rgb(217, 33, 33);
+}
+
+.aanvullen {
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(96, 56, 19);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 0.2em 1em 0.2em;
+    margin: 1.9em 2em 0em 11.5em;
+}
+
+.klaarKnop {
+    background-color: transparent;
+    border-color: green;
+    border-radius: 200px;
+    border-width: 0.5em;
+    font-size: 21px;
+    padding: 1em 0em 1em 0em;
+    margin-left: 13em;
+    margin-top: 3em;
+}
+
+.budget img {
+    width: 60%;
+    height: 60%;
+}
+
+p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 6.6em;
+}
